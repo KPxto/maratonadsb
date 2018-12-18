@@ -1,0 +1,6 @@
+x = float(input('Nota 1: '))
+z = float(input('Nota 2: '))
+y = float(input('Nota 3: '))
+c = float(input('Nota 4: '))
+media = (x + z + y + c) /4
+print('A media eh: {:.2f}'.format(media))
