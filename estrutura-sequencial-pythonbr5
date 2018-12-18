@@ -1,0 +1,3 @@
+x = float(input('Digite Numero em Centimetros: '))
+metros = x / 100
+print('{} centimetros eh igual a {} metros'.format(x, metros))
