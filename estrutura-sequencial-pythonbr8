@@ -1,0 +1,3 @@
+salario = float(input('Quanto voce ganha por hora? '))
+horas = float(input('Quantas horas voce trabalha no mes? '))
+print('Seu salario total neste mes eh de R$ {:.2f}'.format(salario * horas))
