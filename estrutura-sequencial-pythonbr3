@@ -1,0 +1,4 @@
+x = float(input('Numero 1: '))
+z = float(input('Numero 2: '))
+soma = x + z
+print('A soma eh', soma)
