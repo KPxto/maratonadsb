@@ -1,0 +1,5 @@
+parede = float(input('Tamanho em m2 da area a ser pintada: '))
+tinta_litro = parede / 3
+latas = tinta_litro / 18
+preco = latas * 80
+print('Voce devera comprar {:.2f} lata(s) de tinta e preco total sera de R$ {:.2f}'.format(latas, preco))
