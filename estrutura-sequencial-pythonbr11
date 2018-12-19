@@ -1,0 +1,6 @@
+int_1 = int(input('Primeiro Numero Inteiro: '))
+int_2 = int(input('Segundo Numero Inteiro: '))
+real_1 = float(input('Insira Numero Real: '))
+print('\na.:', (2 * int_1) * (int_2/2))
+print('\nb.:', (3 * int_1) + real_1)
+print('\nc.:{:.2f}'.format(real_1**3))
