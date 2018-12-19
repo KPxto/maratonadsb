@@ -1,0 +1,13 @@
+ganho_hora = float(input('Digite o Salario por hora: '))
+horas_trabalho = float(input('Horas Trabalhadas no mes: '))
+salario = ganho_hora * horas_trabalho
+ir = salario * 0.11
+inss = salario * 0.08
+sindicato = salario * 0.05
+print('\n' + '=' * 30)
+print('+ Salario Bruto: R$ {:.2f}'.format(salario))
+print('- IR        (11%): R$ {:.2f}'.format(salario * 0.11))
+print('- INSS       (8%): R$ {:.2f}'.format(salario * 0.08))
+print('- Sindicato  (5%): R$ {:.2f}'.format(salario * 0.05))
+print('= Salario Liquido: R$ {:.2f}'.format(salario - (salario * 0.11 + salario * 0.08 + salario * 0.05))) 
+print('=' * 30)
