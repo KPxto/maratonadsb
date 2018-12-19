@@ -1,0 +1,7 @@
+peso = float(input('Peso do Peixe: '))
+excesso = peso - 50
+multa = excesso * 4
+if excesso > 0:
+	print('{:.2f} kg de excesso e multa de R$ {:.2f}'.format(excesso, multa))
+else:
+	print('Sem excesso de peso. Sem multa! Prefeitura de SP agradece')
