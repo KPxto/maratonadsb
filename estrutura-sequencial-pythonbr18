@@ -1,0 +1,9 @@
+from math import ceil
+tamanho_arquivo = float(input('Informe Tamanho Arquivo: '))
+velocidade = float(input('Informe Velocidade da Internet: '))
+tempo = tamanho_arquivo / velocidade
+tempo_minuto = ceil(tempo / 60)
+if tempo < 60:
+	print('Seu arquivo sera baixado em {:.0f} segundos'.format(tempo))
+if tempo >= 60:
+	print('Seu arquivo sera baixado em {:.0f} minuto(s)'.format(tempo_minuto))
