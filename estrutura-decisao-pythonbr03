@@ -1,0 +1,7 @@
+x = str(input('Informe Sexo: ')).upper()
+if x == 'F':
+	print('Sexo Feminino')
+elif x == 'M':
+	print('Sexo Masculino')
+else:
+	print('Sexo Invalido')
