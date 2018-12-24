@@ -1,0 +1,23 @@
+#funcao ceil serve para arredondar para cima
+from math import ceil
+tamanho_da_area = float(input('Informe tamanho da area: '))
+litros_tinta = tamanho_da_area / 6
+
+latas_exato = ceil(litros_tinta / 18)
+
+galoes = ceil(litros_tinta / 3.6)
+print()
+print('Se for comprar apenas latas de tinta:\n{:.2f} latas necessarias\nR$ {:.2f} eh o valor total'.format(latas_exato, latas_exato * 80))
+print()
+print('Se for comprar apenas galoes de tinta:\n{:.2f} galoes necessarios\nR$ {:.2f} eh o valor total'.format(galoes, galoes * 25)) 
+print()
+latas_div_exata = litros_tinta // 18
+if litros_tinta % 18 > 3.6:
+	galoes = ceil((litros_tinta % 18) / 3.6)
+if litros_tinta % 18 == 0:
+	galoes = 0
+elif litros_tinta % 18 <= 3.6:
+	galoes = 1
+latas_e_galoes = (latas_div_exata * 80) + (galoes * 25)
+folga_porcento = latas_e_galoes + (latas_e_galoes * 0.1)
+print('Usando latas e galoes:\n{:.0f} lata(s) de tinta + {:.0f} galao(s)\nR$ {:.2f} no valor total'.format(latas_div_exata, galoes, folga_porcento))
