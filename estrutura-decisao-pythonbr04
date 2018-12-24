@@ -1,0 +1,6 @@
+x = input('Digite Letra: ').upper()
+vogais = ['A', 'E', 'I', 'O', 'U']
+if x in vogais:
+	print('A letra eh vogal')
+elif x not in vogais:
+	print('A letra eh consoante')
