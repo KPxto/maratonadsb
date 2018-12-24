@@ -1,0 +1,6 @@
+x = float(input('Informe Primeiro Numero: '))
+y = float(input('Informe Segundo Numero: '))
+if x > y:
+	print('O maior eh', x)
+elif y > x:
+	print('O maior eh', y)
