@@ -1,0 +1,9 @@
+x = float(input('Insira Nota 1: '))
+y = float(input('Insira Nota 2: '))
+media = (x + y) / 2
+if media == 10:
+	print('Aprovado com Distincao')
+elif media >= 7:
+	print('Aprovado') 
+elif media < 7:
+	print('Reprovado')
