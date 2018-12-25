@@ -1,0 +1,17 @@
+x = int(input('Insira Numero x: '))
+y = int(input('Insira Numero y: '))
+z = int(input('Insira Numero z: '))
+print()
+if x > y and x > z:
+	print('Maior numero eh', x)
+elif y > x and y > z:
+	print('Maior numero eh', y)
+elif z > x and z > y:
+	print('Maior numero eh', z)
+print()
+if x < y and x < z:
+	print('Menor numero eh', x)
+elif y < x and y < z:
+	print('Menor numero eh', y)
+elif z < x and z < y:
+	print('Menor numero eh', z)
