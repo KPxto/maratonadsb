@@ -1,0 +1,10 @@
+x = float(input('Informe preco do produto x: R$ '))
+y = float(input('Informe preco do produto y: R$ '))
+z = float(input('Informe preco do produto z: R$ '))
+print()
+if x < y and x < z:
+	print('O produto {} eh o mais barato'.format(x))
+elif y < x and y < z:
+	print('O produto {} eh o mais barato'.format(y))
+elif z < x and z < y:
+	print('O produto {} eh o mais barato'.format(z))
