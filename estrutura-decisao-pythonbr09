@@ -1,0 +1,8 @@
+x = int(input('Insira numero x: '))
+y = int(input('Insira numero y: '))
+z = int(input('Insira numero z: '))
+numeros = [x, y, z]
+numeros.sort(reverse=True)   
+print()
+for numero in numeros:
+	print(numero)
